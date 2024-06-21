@@ -22,7 +22,7 @@ app.use(cors(corsOptions));
 // Routes
 app.use('/api/auth', require('./routes/authRoutes'));
 
-mongoose.connect('mongodb+srv://isha:isha123@cluster0.19jafnq.mongodb.net/', {
+mongoose.connect('mongodb+srv://ibibave:ibibave@cluster0.mgu0ieb.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => {
