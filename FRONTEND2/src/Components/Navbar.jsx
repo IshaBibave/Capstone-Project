@@ -13,7 +13,7 @@ const Navbar = () => {
 
   const handleSignUp = async (data) => {
     try {
-      const response = await fetch("http://localhost:3002/api/auth/signup", {
+      const response = await fetch("https://capstone-project-backend2.onrender.com/api/auth/signup", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
@@ -37,7 +37,7 @@ const Navbar = () => {
 
   const handleLogIn = async (data) => {
     try {
-      const response = await fetch("http://localhost:3002/api/auth/login", {
+      const response = await fetch("https://capstone-project-backend2.onrender.com/api/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
